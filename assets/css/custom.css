@@ -1,0 +1,21 @@
+body {
+  background-color: #1b262c;
+}
+
+.card {
+  background-color: transparent;
+  height: 95%;
+}
+
+.card {
+  background-color: rgba(255,255,255,0.1);
+}
+
+p > a {
+  color: white !important;
+}
+
+h6 > a {
+  color: white !important;
+}
+
