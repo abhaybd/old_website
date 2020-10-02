@@ -11,22 +11,6 @@ p > a, h6 > a {
   color: white !important;
 }
 
-.hidden {
-  display: none;
-}
-
-.carousel-page {
-  transition-duration: 1s;
-}
-
-.carousel-page.offscreen-r {
-  transform: translate(100%);
-}
-
-.carousel-page.offscreen-l {
-  transform: translate(-100%);
-}
-
 .card-header > .icon {
   margin-top: 10px;
 }

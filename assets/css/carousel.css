@@ -1,0 +1,16 @@
+.hidden {
+  display: none;
+}
+
+.carousel-page.offscreen-l {
+  transform: translate(-100%);
+}
+
+.carousel-page.offscreen-r {
+  transform: translate(100%);
+}
+
+.carousel-page {
+  transition-duration: 1s;
+}
+
