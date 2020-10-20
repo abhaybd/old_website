@@ -48,9 +48,9 @@ function createOnClick() {
             $(this).addClass('active');
 
             // Shamelessly stolen off of SO, scroll to the top of the project grid
-            $([document.documentElement, document.body]).animate({
-                scrollTop: newPage.children().first().offset().top
-            }, 100);
+            // $([document.documentElement, document.body]).animate({
+            //     scrollTop: newPage.children().first().offset().top
+            // }, 100);
         }
     }
 }
