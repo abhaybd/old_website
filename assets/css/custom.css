@@ -15,3 +15,7 @@ p > a, h6 > a {
   margin-top: 10px;
 }
 
+.special-skill-item {
+  border-radius: 15px;
+}
+
