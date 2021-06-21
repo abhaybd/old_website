@@ -34,7 +34,7 @@
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background: linear-gradient(90deg, #3282b8, #0f4c75);">
         <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="cv.html">Resume</a></li>
@@ -49,13 +49,29 @@
                 <div class="heading">
                     <h2>Recent Work</h2>
                 </div>
+                <nav style="display: flex;justify-content: center;width: 100%;">
+                    <ul class="pagination pagination-bar">
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    </ul>
+                </nav>
                 <div class="row carousel-page">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://github.com/abhaybd/opensaber"><img class="card-img-top scale-on-hover" src="assets/img/lightsaber-blue-cropped.jpg"></a>
+                            <div class="card-body">
+                                <h6><a href="https://github.com/abhaybd/opensaber">OpenSaber</a></h6>
+                                <p class="text-white-50 card-text">An LED lightsaber designed and programmed from scratch that dynamically responds to motion. Powered by a microcontroller programmed in C++.</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card border-0"><a href="https://github.com/abhaybd/angles"><img class="card-img-top scale-on-hover" src="assets/img/angles-cropped.png" alt="Card Image"></a>
                             <div class="card-body">
                                 <h6><a href="https://github.com/abhaybd/angles">Angles</a></h6>
-                                <p class="text-white-50 card-text">Submission to hackathon <a href="https://dubhacks.co/">Dubhacks</a>, placed in top 3 in its category. Built a Chrome extension that&nbsp; finds and suggests articles about the same topic from different sources when users
-                                    read the news. Built with JQuery, Chrome extension API, Google NLP,&nbsp; Google Cloud Run, and more.<br><a href="https://devpost.com/software/angles-sqdzlt">Link to project submission</a></p>
+                                <p class="text-white-50 card-text">Submission to hackathon <a href="https://dubhacks.co/">Dubhacks</a>, placed in top 3 in its category. Built a Chrome extension that&nbsp; finds and suggests articles about the same topic from different sources when users read the news. Built with JQuery, Chrome extension API, Google NLP,&nbsp; Google Cloud Run, and more.<br><a href="https://devpost.com/software/angles-sqdzlt">Link to project submission</a></p>
                             </div>
                         </div>
                     </div>
@@ -72,15 +88,6 @@
                             <div class="card-body">
                                 <h6><a href="https://github.com/abhaybd/Whiteboard-Drawer">Whiteboard Drawing CNC Robot</a></h6>
                                 <p class="text-white-50 card-text">Created a CNC machine that draws arbitrary designs on a whiteboard, powered by an Arduino Uno</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="https://github.com/abhaybd/DawgMaps"><img class="card-img-top scale-on-hover" src="assets/img/dawgmaps_padded.png" alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="https://github.com/abhaybd/DawgMaps">DawgMaps</a></h6>
-                                <p class="text-white-50 card-text">Submission to hackathon <a href="https://hack-20.devpost.com/">Hack'20</a>, won 1st place in its category. Built an Android app and a web-app that work together to crowd-source real-time location data to generate heat maps
-                                    to help users navigate UW while avoiding crowds. Built with Firebase, ReactJS, and Android.<br><a href="https://dawgmaps.online/"> Link to project website</a></p>
                             </div>
                         </div>
                     </div>
@@ -102,6 +109,14 @@
                     </div>
                 </div>
                 <div class="row carousel-page">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="https://github.com/abhaybd/DawgMaps"><img class="card-img-top scale-on-hover" src="assets/img/dawgmaps_padded.png" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="https://github.com/abhaybd/DawgMaps">DawgMaps</a></h6>
+                                <p class="text-white-50 card-text">Submission to hackathon <a href="https://hack-20.devpost.com/">Hack'20</a>, won 1st place in its category. Built an Android app and a web-app that work together to crowd-source real-time location data to generate heat maps to help users navigate UW while avoiding crowds. Built with Firebase, ReactJS, and Android.<br><a href="https://dawgmaps.online/"> Link to project website</a></p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="card border-0"><a href="https://github.com/abhaybd/Arcade-Machine"><img class="card-img-top scale-on-hover" src="assets/img/launcher.png" alt="Card Image"></a>
                             <div class="card-body">
@@ -136,7 +151,7 @@
                     </div>
                 </div>
                 <nav style="display: flex;justify-content: center;width: 100%;">
-                    <ul class="pagination" id="pagination-bar">
+                    <ul class="pagination pagination-bar">
                         <li class="page-item"><a class="page-link" href="#">1</a></li>
                         <li class="page-item"><a class="page-link" href="#">2</a></li>
                         <li class="page-item"><a class="page-link" href="#">3</a></li>
