@@ -19,3 +19,7 @@ p > a, h6 > a {
   border-radius: 15px;
 }
 
+.active {
+  text-decoration: underline;
+}
+
